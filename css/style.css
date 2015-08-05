@@ -1,0 +1,146 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Gotham', sans-serif;
+  color: #000000;
+  height: 100%;
+  left: 15%;
+  right: 15%;
+  bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+  color: #0099CC;
+}
+
+div {
+
+}
+
+img {
+  height: auto;
+  clear: both;
+  width: 100%;
+  vertical-align: top;
+}
+
+label {
+  font-size: 12px;
+  text-align: center;
+}
+
+#header {
+  color: #0099CC;
+  text-align: center;
+  top: 20px;
+  padding: 1px;
+  background-color: silver;
+}
+
+#nav {
+  padding: 0px;
+  background-color: #0099CC;
+}
+
+#headimg {
+  height: 18px;
+  text-align: center;
+}
+
+.items {
+  height: 300px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.thumbnail {
+  background-color: #fff;
+  text-align: center;
+  border: none;
+  text-transform: none;
+  float: left;
+  position: relative;
+  width: 300px;
+}
+
+.row {
+  float: left;
+  margin-left: 3px; 
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+/* Portrait iPhone 6 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  
+    body {
+    width: 400px;
+    font-size: 16px;
+  }
+}
+
+/* Landscape iPhone 6*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+ 
+    body {
+    width: 600px;
+    font-size: 16px;
+  }
+}
+
+/* iPad */
+@media only screen and (min-width: 768px) 
+and (max-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  
+  body {
+    width: 600px;
+    font-size: 16px;
+  }
+}
+
+/* Non-Retina Screens */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  
+  body {
+    width: 1220px;
+    font-size: 16px;
+  }
+}
+
+/*  Retina Screens  */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  
+  body {
+    width: 1320px;
+    font-size: 16px;
+  }
+}
+
+
