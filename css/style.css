@@ -17,6 +17,7 @@ body {
 h1 {
   text-align: center;
   color: #0099CC;
+  line-height: 30px;
 }
 
 div {
@@ -32,6 +33,20 @@ img {
 label {
   font-size: 12px;
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#footer {
+  background-color: transparent;
+  font-family: "Latos";
+  font-size: 12px;
+  text-align: center;
+  left: 0;
+  bottom: 20;
+  height: 100%
 }
 
 #header {
